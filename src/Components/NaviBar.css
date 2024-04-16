@@ -1,0 +1,59 @@
+.Brand{
+    padding-left: 11px;
+    font-size: 39px;
+    color: #FFFF!important ;
+     font-weight: bold;
+    text-decoration: underline !important;
+    text-decoration-color: orange !important;
+    text-underline-offset: 0.4rem;
+    margin-right: 15px;
+} 
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+#navi {  
+   position:sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   color: #fff;
+   padding: 10px;
+   z-index: 1030; 
+  }
+  
+.Navi-child{
+    color: #FFFF !important;
+
+}
+
+.Navi-child:hover{
+    background-color:orange;
+    border-radius: 9px;
+}
+
+
+#basic-nav-dropdown{
+    color: #FFFF;
+}
+
+#basic-nav-dropdown:hover{
+    background-color: orange;
+    border-radius: 9px;
+} 
+
+ .List{
+    background-color: rgb(118, 118, 171) !important ;
+    color: #FFFF !important;  
+ 
+}
+
+.List:hover{
+    background-color: orange !important;
+}
+

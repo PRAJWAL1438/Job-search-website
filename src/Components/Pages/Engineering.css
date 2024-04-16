@@ -1,0 +1,19 @@
+.EngineeringPage{
+    padding-top: 30px;
+    background-color: rgb(118, 118, 171);;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.List1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Name{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+}

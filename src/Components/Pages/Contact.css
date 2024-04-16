@@ -1,0 +1,38 @@
+.Number{
+    width: 100vw;
+    height: 89.1vh;
+    display: grid;
+}
+
+.Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+    /* margin-top: 9.1vh;; */
+    color:orange;
+}
+
+.Icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:69.1vh;
+    gap: 60px;
+    color:azure;
+} 
+
+@media screen and (max-width :768px) {
+    .Icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height:69.1vh;
+        gap:20px;
+        color:azure;
+    }  
+}
